@@ -1,0 +1,34 @@
+
+# Transformers Notes
+
+## The Transformer Architecture
+
+The Transformer is a neural network architecture based on
+the attention mechanism. It is widely used in Natural Language
+Processing (NLP).
+
+## Encoder and Decoder
+
+The original Transformer consists of an encoder and a decoder.
+The encoder contains 6 layers, and the decoder also contains
+6 layers.
+
+## Multi-Head Attention
+
+Multi-head attention allows the model to attend to information
+from different representation subspaces at different positions.
+
+## Positional Encoding
+
+The attention mechanism does not inherently understand the
+order of tokens. Positional encoding adds information about
+token positions to the input embeddings.
+
+## Self-Attention
+
+Self-attention calculates relationships between tokens in a
+sequence to create contextual representations.
+
+## Feed-Forward Network
+Each Transformer encoder and decoder layer contains a
+feed-forward neural network that processes token representations.
